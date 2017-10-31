@@ -1,2 +1,2 @@
 # nay-project
-Seleniu Project Set-up
+Selenium Project Set-up
