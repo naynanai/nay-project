@@ -1,4 +1,4 @@
-package SeleniumNay.tests;
+package tests;
 
 import junit.framework.TestCase;
 import org.junit.Test;
@@ -14,13 +14,12 @@ public class NayTest
     extends TestCase {
 
     @Test
-    public void testGoogleSearch()  {
+    public void testGoogleSearch() {
         // Optional, if not specified, WebDriver will search your path for chromedriver.
         System.setProperty( "webdriver.chrome.driver", "/Users/nme/work/chromedriver" );
 
         WebDriver driver = new ChromeDriver();
         driver.get( "http://www.google.com/xhtml" );
-        //Thread.sleep( 5000 );  // Let the user actually see something!
         WebElement searchBox = driver.findElement( By.name( "q" ) );
         searchBox.sendKeys( "ChromeDriver" );
         searchBox.submit();
