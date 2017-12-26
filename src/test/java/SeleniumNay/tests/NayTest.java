@@ -1,14 +1,11 @@
 package SeleniumNay.tests;
 
-import junit.framework.Test;
 import junit.framework.TestCase;
-import junit.framework.TestSuite;
+import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-
-import static java.lang.Thread.*;
 
 /**
  * Unit test for simple App.
@@ -16,9 +13,10 @@ import static java.lang.Thread.*;
 public class NayTest
     extends TestCase {
 
-    public void testGoogleSearch() {
+    @Test
+    public void testGoogleSearch()  {
         // Optional, if not specified, WebDriver will search your path for chromedriver.
-        System.setProperty( "webdriver.chrome.driver", "/path/to/chromedriver" );
+        System.setProperty( "webdriver.chrome.driver", "/Users/nme/work/chromedriver" );
 
         WebDriver driver = new ChromeDriver();
         driver.get( "http://www.google.com/xhtml" );
@@ -26,7 +24,7 @@ public class NayTest
         WebElement searchBox = driver.findElement( By.name( "q" ) );
         searchBox.sendKeys( "ChromeDriver" );
         searchBox.submit();
-        //sleep( 5000 );  // Let the user actually see something!
+        //Thread.sleep( 5000 );  // Let the user actually see something!
         driver.quit();
     }
 }
