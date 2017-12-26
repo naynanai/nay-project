@@ -9,3 +9,4 @@ Selenium Project Set-up
 4. Adding the project to my repository in GitHub using the command line
 5. First commit
 6. Added Junit & Selenium dependencies in project
+7. NayTest01: beta test and checking chromedriver

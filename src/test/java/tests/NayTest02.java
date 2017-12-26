@@ -30,7 +30,7 @@ public class NayTest02
     }
 
     @Test
-    public void testThatUserCanRegister() throws InterruptedException {
+    public void testSimpleRegistration() throws InterruptedException {
 
         System.setProperty( "webdriver.chrome.driver", "/Users/nme/work/chromedriver" );
         WebDriver driver = new ChromeDriver();
