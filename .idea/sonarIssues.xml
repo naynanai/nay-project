@@ -23,6 +23,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/SeleniumNay/AppTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/SeleniumNay/tests/AppTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/SeleniumNay/tests/BetaTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../develop/lotto/lotto-integrationtest/pom.xml">
           <value>
             <set />
@@ -33,7 +48,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../develop/lotto/lotto-integrationtest/src/test/java/de/dreamit/selenium/lottopage/Lottery.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../develop/lotto/lotto-integrationtest/src/test/java/de/dreamit/selenium/lottopage/desktop/lottery/DesktopLotteryExpect.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../develop/lotto/lotto-integrationtest/src/test/java/de/dreamit/selenium/lottopage/desktop/lottery/DesktopLotteryPage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../develop/lotto/lotto-platform/src/main/java/de/dla/platform/lotto/LotteryTicket.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../develop/lotto/lotto-platform/src/main/resources/__BASE_PLATFORM___en.properties">
           <value>
             <set />
           </value>
@@ -44,6 +79,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../develop/lotto/tools/git-hooks/commit-msg">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.java">
           <value>
             <set />
           </value>
