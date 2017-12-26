@@ -1,6 +1,7 @@
 package tests;
 
 import junit.framework.TestCase;
+import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -8,18 +9,20 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 /**
- * Unit test for simple App.
+ * Example test.
  */
 public class NayTest
     extends TestCase {
 
     @Test
     public void testGoogleSearch() {
-        // Optional, if not specified, WebDriver will search your path for chromedriver.
-        System.setProperty( "webdriver.chrome.driver", "/Users/nme/work/chromedriver" );
 
+        System.setProperty( "webdriver.chrome.driver", "/Users/nme/work/chromedriver" );
         WebDriver driver = new ChromeDriver();
         driver.get( "http://www.google.com/xhtml" );
+
+        assertTrue(driver.getTitle().equals("Google"));
+
         WebElement searchBox = driver.findElement( By.name( "q" ) );
         searchBox.sendKeys( "ChromeDriver" );
         searchBox.submit();
