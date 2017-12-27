@@ -24,13 +24,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0cedc1e-054a-4293-9610-7089c728a704" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/pages/RegistrationPage.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pages/RegistrationPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pages/RegistrationPage.class" afterPath="$PROJECT_DIR$/target/classes/pages/RegistrationPage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/tests/NayTest02.class" afterPath="$PROJECT_DIR$/target/test-classes/tests/NayTest02.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SeleniumNay.iml" afterPath="$PROJECT_DIR$/SeleniumNay.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pages/RegistrationPage.java" afterPath="$PROJECT_DIR$/src/main/java/pages/RegistrationPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/NayTest02.java" afterPath="$PROJECT_DIR$/src/test/java/tests/NayTest02.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -54,18 +53,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RegistrationPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/RegistrationPage.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#481#482#0" expanded="true" />
-                <element signature="e#522#523#0" expanded="true" />
-                <element signature="e#638#639#0" expanded="true" />
-                <element signature="e#678#679#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="375">
+              <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,12 +66,28 @@
       <file leaf-file-name="NayTest02.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/NayTest02.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state relative-caret-position="214">
+              <caret line="41" column="33" lean-forward="false" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#617#618#0" expanded="true" />
-                <element signature="e#674#675#0" expanded="true" />
+                <element signature="e#554#555#0" expanded="true" />
+                <element signature="e#611#612#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegistrationPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/RegistrationPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="536">
+              <caret line="55" column="30" lean-forward="false" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#528#529#0" expanded="true" />
+                <element signature="e#569#570#0" expanded="true" />
+                <element signature="e#685#686#0" expanded="true" />
+                <element signature="e#725#726#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -120,10 +129,10 @@
         <option value="$PROJECT_DIR$/src/test/java/SeleniumNay/tests/AppTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/SeleniumNay/tests/BetaTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/SeleniumNay/tests/NayTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/test/java/tests/NayTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/Homepage.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pages/RegistrationPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/NayTest02.java" />
       </list>
@@ -178,10 +187,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="12" />
-    <option name="y" value="27" />
-    <option name="width" value="1828" />
-    <option name="height" value="963" />
+    <option name="x" value="174" />
+    <option name="y" value="77" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -800,7 +809,7 @@
       <workItem from="1511522399377" duration="324000" />
       <workItem from="1513336374134" duration="816000" />
       <workItem from="1513604279884" duration="1347000" />
-      <workItem from="1514282076350" duration="30268000" />
+      <workItem from="1514282076350" duration="33593000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Dependencies: Junit and Selenium dependencies added">
       <created>1510251974647</created>
@@ -949,24 +958,31 @@
       <option name="project" value="LOCAL" />
       <updated>1514377119140</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Cr">
+      <created>1514383943866</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1514383943866</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NayTest02_testSimpleRegistrationSuccessful - 2017.12.27 at 12h 49m 35s.xml">
-      <configuration name="NayTest02.testSimpleRegistrationSuccessful" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NayTest02_testSimpleRegistrationSuccessful - 2017.12.27 at 12h 50m 24s.xml">
-      <configuration name="NayTest02.testSimpleRegistrationSuccessful" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NayTest02_testSimpleRegistrationSuccessful - 2017.12.27 at 12h 51m 36s.xml">
-      <configuration name="NayTest02.testSimpleRegistrationSuccessful" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="NayTest02_testSimpleRegistrationSuccessfulPRO - 2017.12.27 at 15h 03m 33s.xml">
       <configuration name="NayTest02.testSimpleRegistrationSuccessfulPRO" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NayTest02_testThatRegistrationFormIsAccesible - 2017.12.27 at 14h 40m 14s.xml">
-      <configuration name="NayTest02.testThatRegistrationFormIsAccesible" configurationId="JUnit" />
+    <history-entry file="NayTest02_testSimpleRegistrationSuccessfulPRO - 2017.12.27 at 16h 18m 19s.xml">
+      <configuration name="NayTest02.testSimpleRegistrationSuccessfulPRO" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NayTest02_testSimpleRegistrationSuccessfulPRO - 2017.12.27 at 16h 22m 52s.xml">
+      <configuration name="NayTest02.testSimpleRegistrationSuccessfulPRO" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NayTest02_testSimpleRegistrationSuccessfulPRO - 2017.12.27 at 16h 29m 48s.xml">
+      <configuration name="NayTest02.testSimpleRegistrationSuccessfulPRO" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NayTest02_testSimpleRegistrationSuccessfulPRO - 2017.12.27 at 17h 23m 50s.xml">
+      <configuration name="NayTest02.testSimpleRegistrationSuccessfulPRO" configurationId="JUnit" />
     </history-entry>
     <history-entry file="NayTest02_testThatRegistrationFormIsAccessible - 2017.12.27 at 14h 58m 22s.xml">
       <configuration name="NayTest02.testThatRegistrationFormIsAccessible" configurationId="JUnit" />
@@ -985,7 +1001,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38520000" />
+    <option name="totallyTimeSpent" value="41845000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -997,12 +1013,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="12" y="27" width="1828" height="963" extended-state="0" />
+    <frame x="174" y="77" width="1440" height="877" extended-state="0" />
     <layout>
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.035107587" sideWeight="0.5346113" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10190369" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13018598" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1013,14 +1029,14 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16315505" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42857143" sideWeight="0.38841203" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4283837" sideWeight="0.38841203" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.012987013" sideWeight="0.6502146" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27463862" sideWeight="0.6502146" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901296" sideWeight="0.49361023" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18536009" sideWeight="0.46538872" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1556551" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18528253" sideWeight="0.46538872" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1988555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.49810913" order="1" side_tool="false" content_ui="tabs" />
@@ -1116,7 +1132,8 @@
     <MESSAGE value="First test running on ChromeDriver" />
     <MESSAGE value="First approach to test Registration Form" />
     <MESSAGE value="Registration Form simple test working!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Registration Form simple test working!" />
+    <MESSAGE value="Cr" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cr" />
   </component>
   <component name="WindowStateProjectService">
     <state width="619" height="182" key="Git.Branch.Popup" />
@@ -1394,14 +1411,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="27" lean-forward="false" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/NayTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1439,28 +1448,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.8.1/selenium-support-3.8.1.jar!/org/openqa/selenium/support/ui/Select.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/RegistrationPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        <state relative-caret-position="536">
+          <caret line="55" column="30" lean-forward="false" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/NayTest02.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="214">
+          <caret line="41" column="33" lean-forward="false" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
           </folding>
         </state>
       </provider>

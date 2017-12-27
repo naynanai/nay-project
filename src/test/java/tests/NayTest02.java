@@ -1,8 +1,6 @@
 package tests;
 
-import junit.framework.TestCase;
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -44,9 +42,15 @@ public class NayTest02  {
     public void testSimpleRegistrationSuccessfulPRO() throws InterruptedException {
 
         registrationPage.goToPage("http://demoqa.com/registration/");
-
-
-
+        registrationPage.fillFirstNameField( "Nay" );
+        registrationPage.fillLastNameField("Nanai ");
+        registrationPage.selectCheckbox("input[value='divorced']" );
+        registrationPage.selectCheckbox("input[value='reading']" );
+        registrationPage.selectDropdown( "dropdown_7", "Argentina" );
+        registrationPage.selectDropdown( "mm_date_8", "12" );
+        registrationPage.selectDropdown( "dd_date_8", "10" );
+        registrationPage.selectDropdown( "yy_date_8", "1983" );
+        Thread.sleep( 2000 );
         registrationPage.closePage();
     }
 

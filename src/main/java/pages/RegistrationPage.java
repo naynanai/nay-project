@@ -1,9 +1,11 @@
 package pages;
 
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+
 
 /**
  * Created by nme on 27/12/17.
@@ -36,4 +38,23 @@ public class RegistrationPage {
         registrationLink.click();
     }
 
+    public void fillFirstNameField (String username) {
+        WebElement firstName = driver.findElement(By.id("name_3_firstname"));
+        firstName.sendKeys(username);
+    }
+
+    public void fillLastNameField (String surname) {
+        WebElement lastName = driver.findElement(By.id("name_3_lastname"));
+        lastName.sendKeys(surname);
+    }
+
+    public void selectCheckbox (String checkboxValue) {
+        WebElement statusCheckBox = driver.findElement(By.cssSelector(checkboxValue));
+        statusCheckBox.click();
+    }
+
+    public void selectDropdown (String dropDown, String value) {
+        Select countrySelector = new Select(driver.findElement(By.id(dropDown)));
+        countrySelector.selectByVisibleText(value);
+    }
 }
