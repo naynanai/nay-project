@@ -10,3 +10,4 @@ Selenium Project Set-up
 5. First commit
 6. Added Junit & Selenium dependencies in project
 7. NayTest01: beta test and checking chromedriver
+8. NayTest02: Simple test working
