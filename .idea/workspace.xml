@@ -24,8 +24,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0cedc1e-054a-4293-9610-7089c728a704" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/tests/NayTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/tests/NayTest02.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/NayTest.java" afterPath="$PROJECT_DIR$/src/test/java/tests/NayTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/tests/NayTest02.java" afterPath="$PROJECT_DIR$/src/test/java/tests/NayTest02.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -53,8 +55,8 @@
       <file leaf-file-name="NayTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/NayTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="32" />
+            <state relative-caret-position="180">
+              <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,25 +67,11 @@
       <file leaf-file-name="NayTest02.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/NayTest02.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="38" lean-forward="false" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+            <state relative-caret-position="379">
+              <caret line="78" column="28" lean-forward="false" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1514311933000" expanded="true" signature="965:1167" ph="{...}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="165">
-                <caret line="11" column="49" lean-forward="false" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-                <folding />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -100,6 +88,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>contai</find>
+      <find>cl</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -123,9 +112,9 @@
         <option value="$PROJECT_DIR$/src/test/java/SeleniumNay/tests/AppTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/SeleniumNay/tests/BetaTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/SeleniumNay/tests/NayTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/NayTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/NayTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/NayTest02.java" />
       </list>
     </option>
@@ -179,10 +168,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="13" />
-    <option name="y" value="23" />
-    <option name="width" value="1893" />
-    <option name="height" value="1119" />
+    <option name="x" value="-1428" />
+    <option name="y" value="204" />
+    <option name="width" value="1396" />
+    <option name="height" value="835" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -252,6 +241,14 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -291,59 +288,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NayTest02.testThatRegistrationFormIsAccesible">
-    <configuration default="false" name="NayTest.testGoogleSearch (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="SeleniumNay" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.NayTest" />
-      <option name="METHOD_NAME" value="testGoogleSearch" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="NayTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="SeleniumNay" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.NayTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.NayTest02.testSimpleRegistrationSuccessful">
     <configuration default="false" name="NayTest02.testAssert01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -409,6 +354,58 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.NayTest02" />
       <option name="METHOD_NAME" value="testThatRegistrationFormIsAccesible" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="NayTest02.testSimpleRegistration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="SeleniumNay" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.NayTest02" />
+      <option name="METHOD_NAME" value="testSimpleRegistration" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="NayTest02.testSimpleRegistrationSuccessful" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="SeleniumNay" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.NayTest02" />
+      <option name="METHOD_NAME" value="testSimpleRegistrationSuccessful" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -752,19 +749,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.NayTest.testGoogleSearch (1)" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.NayTest (1)" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.NayTest02.testAssert01" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.NayTest02" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.NayTest02.testThatRegistrationFormIsAccesible" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.NayTest02.testAssert01" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.NayTest02" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.NayTest02.testThatRegistrationFormIsAccesible" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.NayTest02.testSimpleRegistration" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.NayTest02.testSimpleRegistrationSuccessful" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.NayTest02.testThatRegistrationFormIsAccesible" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.NayTest02.testAssert01" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.NayTest02" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.NayTest.testGoogleSearch (1)" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.NayTest (1)" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.NayTest02.testSimpleRegistrationSuccessful" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.NayTest02.testSimpleRegistration" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.NayTest02.testThatRegistrationFormIsAccesible" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.NayTest02.testAssert01" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.NayTest02" />
       </list>
     </recent_temporary>
   </component>
@@ -789,7 +786,7 @@
       <workItem from="1511522399377" duration="324000" />
       <workItem from="1513336374134" duration="816000" />
       <workItem from="1513604279884" duration="1347000" />
-      <workItem from="1514282076350" duration="14508000" />
+      <workItem from="1514282076350" duration="22098000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Dependencies: Junit and Selenium dependencies added">
       <created>1510251974647</created>
@@ -910,43 +907,50 @@
       <option name="project" value="LOCAL" />
       <updated>1514311805120</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="First approach to test Registration Form">
+      <created>1514311954800</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1514311954800</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NayTest02_testAssert01 - 2017.12.26 at 18h 21m 04s.xml">
-      <configuration name="NayTest02.testAssert01" configurationId="JUnit" />
+    <history-entry file="NayTest02_testSimpleRegistration - 2017.12.27 at 11h 31m 33s.xml">
+      <configuration name="NayTest02.testSimpleRegistration" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NayTest02_testAssert01 - 2017.12.26 at 18h 23m 59s.xml">
-      <configuration name="NayTest02.testAssert01" configurationId="JUnit" />
+    <history-entry file="NayTest02_testSimpleRegistration - 2017.12.27 at 11h 32m 25s.xml">
+      <configuration name="NayTest02.testSimpleRegistration" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NayTest02_testAssert01 - 2017.12.26 at 18h 24m 17s.xml">
-      <configuration name="NayTest02.testAssert01" configurationId="JUnit" />
+    <history-entry file="NayTest02_testSimpleRegistration - 2017.12.27 at 11h 32m 43s.xml">
+      <configuration name="NayTest02.testSimpleRegistration" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NayTest02_testThatRegistrationFormIsAccesible - 2017.12.26 at 18h 46m 39s.xml">
-      <configuration name="NayTest02.testThatRegistrationFormIsAccesible" configurationId="JUnit" />
+    <history-entry file="NayTest02_testSimpleRegistration - 2017.12.27 at 11h 37m 11s.xml">
+      <configuration name="NayTest02.testSimpleRegistration" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NayTest02_testThatRegistrationFormIsAccesible - 2017.12.26 at 18h 47m 00s.xml">
-      <configuration name="NayTest02.testThatRegistrationFormIsAccesible" configurationId="JUnit" />
+    <history-entry file="NayTest02_testSimpleRegistration - 2017.12.27 at 11h 38m 11s.xml">
+      <configuration name="NayTest02.testSimpleRegistration" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NayTest02_testThatRegistrationFormIsAccesible - 2017.12.26 at 18h 50m 46s.xml">
-      <configuration name="NayTest02.testThatRegistrationFormIsAccesible" configurationId="JUnit" />
+    <history-entry file="NayTest02_testSimpleRegistration - 2017.12.27 at 12h 04m 06s.xml">
+      <configuration name="NayTest02.testSimpleRegistration" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NayTest02_testThatRegistrationFormIsAccesible - 2017.12.26 at 18h 52m 17s.xml">
-      <configuration name="NayTest02.testThatRegistrationFormIsAccesible" configurationId="JUnit" />
+    <history-entry file="NayTest02_testSimpleRegistration - 2017.12.27 at 12h 08m 49s.xml">
+      <configuration name="NayTest02.testSimpleRegistration" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NayTest02_testThatRegistrationFormIsAccesible - 2017.12.26 at 18h 54m 16s.xml">
-      <configuration name="NayTest02.testThatRegistrationFormIsAccesible" configurationId="JUnit" />
+    <history-entry file="NayTest02_testSimpleRegistrationSuccessful - 2017.12.27 at 12h 21m 14s.xml">
+      <configuration name="NayTest02.testSimpleRegistrationSuccessful" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NayTest02_testThatRegistrationFormIsAccesible - 2017.12.26 at 18h 54m 36s.xml">
-      <configuration name="NayTest02.testThatRegistrationFormIsAccesible" configurationId="JUnit" />
+    <history-entry file="NayTest02_testSimpleRegistrationSuccessful - 2017.12.27 at 12h 21m 48s.xml">
+      <configuration name="NayTest02.testSimpleRegistrationSuccessful" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NayTest02_testThatRegistrationFormIsAccesible - 2017.12.26 at 19h 02m 28s.xml">
-      <configuration name="NayTest02.testThatRegistrationFormIsAccesible" configurationId="JUnit" />
+    <history-entry file="NayTest02_testSimpleRegistrationSuccessful - 2017.12.27 at 12h 24m 57s.xml">
+      <configuration name="NayTest02.testSimpleRegistrationSuccessful" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22760000" />
+    <option name="totallyTimeSpent" value="30350000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -958,12 +962,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="13" y="23" width="1893" height="1119" extended-state="0" />
+    <frame x="-1428" y="204" width="1396" height="835" extended-state="0" />
     <layout>
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21036889" sideWeight="0.5299838" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21001391" sideWeight="0.53249633" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2728255" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13441655" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -974,14 +978,14 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16315505" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4327019" sideWeight="0.46785522" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42976356" sideWeight="0.41728213" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2911266" sideWeight="0.7714749" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16689847" sideWeight="0.6957164" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901296" sideWeight="0.49361023" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21036889" sideWeight="0.4700162" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15018909" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21001391" sideWeight="0.4675037" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20531757" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.49810913" order="1" side_tool="false" content_ui="tabs" />
@@ -1284,17 +1288,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/junit/framework/TestCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="199" column="23" lean-forward="false" selection-start-line="199" selection-start-column="23" selection-end-line="199" selection-end-column="23" />
-          <folding>
-            <element signature="e#5919#5920#0" expanded="false" />
-            <element signature="e#5963#5964#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.8.1/selenium-api-3.8.1.jar!/org/openqa/selenium/WebDriver.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1330,16 +1323,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/NayTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -1359,13 +1342,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/NayTest02.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/Homepage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="38" lean-forward="false" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/junit/framework/TestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="75" column="22" lean-forward="false" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/NayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1514311933000" expanded="true" signature="965:1167" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/NayTest02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="78" column="28" lean-forward="false" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

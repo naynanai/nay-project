@@ -10,8 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 /**
  * Example test.
  */
-public class NayTest
-    extends TestCase {
+public class NayTest extends TestCase {
 
     @Test
     public void testGoogleSearch() {
