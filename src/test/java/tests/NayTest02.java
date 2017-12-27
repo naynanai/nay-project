@@ -1,37 +1,53 @@
 package tests;
 
 import junit.framework.TestCase;
+import org.junit.Before;
+import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
+import pages.RegistrationPage;
 
+import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
+import static org.junit.Assert.assertTrue;
 
 /**
  * Registration Form test.
  */
-public class NayTest02 extends TestCase {
 
+public class NayTest02  {
 
+    private RegistrationPage registrationPage;
+
+    @Before
+    public void initialize() {
+        registrationPage = new RegistrationPage();
+    }
 
     @Test
-    public void testThatRegistrationFormIsAccesible() throws InterruptedException {
+    public void testThatRegistrationFormIsAccessible() throws InterruptedException {
 
-        System.setProperty( "webdriver.chrome.driver", "/Users/nme/work/chromedriver" );
-        WebDriver driver = new ChromeDriver();
-        driver.get( "http://demoqa.com/" );
-
-        WebElement registrationLink = driver.findElement( By.linkText( "Registration" ) );
-        registrationLink.click();
+        registrationPage.goToPage("http://demoqa.com/");
+        registrationPage.clickRegistrationLink();
         Thread.sleep( 2000 );
-        assertTrue( "Page is not Registration form", driver.getTitle().equals( "Registration | Demoqa" ) );
+        assertTrue( "Page is not Registration form", registrationPage.getTitle().equals( "Registration | Demoqa" ) );
 
-        driver.close();
-        driver.quit();
+        registrationPage.closePage();
+    }
+
+    @Test
+    public void testSimpleRegistrationSuccessfulPRO() throws InterruptedException {
+
+        registrationPage.goToPage("http://demoqa.com/registration/");
+
+
+
+        registrationPage.closePage();
     }
 
     @Test
