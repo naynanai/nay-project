@@ -8,6 +8,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
+import java.util.concurrent.TimeUnit;
+
 
 /**
  * Registration Form test.
@@ -63,22 +65,31 @@ public class NayTest02 extends TestCase {
         Select yearSelector = new Select(driver.findElement(By.id("yy_date_8")));
         yearSelector.selectByVisibleText("1983");
 
-        WebElement xxx = driver.findElement( By.id( "xxx" ) );
-        xxx.sendKeys("xxx");
+        WebElement phoneNumber = driver.findElement( By.name( "phone_9" ) );
+        phoneNumber.sendKeys("0034123456789");
 
-        WebElement xxx = driver.findElement( By.id( "xxx" ) );
-        xxx.sendKeys("xxx");
+        WebElement username = driver.findElement( By.name( "username" ) );
+        username.sendKeys("Natiira de la Pueblas");
 
-        WebElement xxx = driver.findElement( By.id( "xxx" ) );
-        xxx.sendKeys("xxx");
+        WebElement email = driver.findElement( By.name( "e_mail" ) );
+        email.sendKeys("naydelagfgfebles@pueblas.com");
 
-        WebElement xxx = driver.findElement( By.id( "xxx" ) );
-        xxx.sendKeys("xxx");
+        WebElement password = driver.findElement( By.name( "password" ) );
+        password.sendKeys("12345678");
 
-        WebElement xxx = driver.findElement( By.id( "xxx" ) );
-        xxx.sendKeys("xxx");
+        WebElement confirmPassword = driver.findElement( By.id( "confirm_password_password_2" ) );
+        confirmPassword.sendKeys("12345678");
 
-        Thread.sleep( 5000 );
+        WebElement submitButton = driver.findElement(By.name( "pie_submit" ));
+        submitButton.click();
+
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+        WebElement confirmationMessage = driver.findElement(By.className( "piereg_message" ));
+        confirmationMessage.isDisplayed();
+
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+
         driver.close();
         driver.quit();
 
