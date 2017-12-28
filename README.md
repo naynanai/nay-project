@@ -12,3 +12,4 @@ Selenium Project Set-up
 7. NayTest01: beta test and checking chromedriver
 8. NayTest02: Simple test working
 9. Test refactored (page object)
+10. Project completed! :D
