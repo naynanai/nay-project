@@ -11,3 +11,4 @@ Selenium Project Set-up
 6. Added Junit & Selenium dependencies in project
 7. NayTest01: beta test and checking chromedriver
 8. NayTest02: Simple test working
+9. Test refactored (page object)

@@ -3,6 +3,9 @@ package tests;
 import org.junit.Before;
 import org.junit.Test;
 import pages.RegistrationPage;
+
+import java.util.Random;
+
 import static org.junit.Assert.assertTrue;
 
 /**
@@ -16,6 +19,7 @@ public class NayTest02  {
     @Before
     public void initialize() {
         registrationPage = new RegistrationPage();
+
     }
 
     @Test
@@ -45,8 +49,8 @@ public class NayTest02  {
         registrationPage.selectDropdown( "dd_date_8", "10" );
         registrationPage.selectDropdown( "yy_date_8", "1983" );
         registrationPage.fillPhoneNumber( "0034123456789" );
-        registrationPage.fillUserName( "Nayiro de la Puebla" );
-        registrationPage.fillEmail( "testo+testi@testi.com" );
+        registrationPage.fillUserName( "Nayuo de la Puebla" );
+        registrationPage.fillEmail( "testo+teuiuti@testi.com" );
         registrationPage.fillPassword( "12345678" );
         registrationPage.confirmPassword( "12345678" );
         registrationPage.clickSubmittButton();
